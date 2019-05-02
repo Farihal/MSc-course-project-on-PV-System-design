@@ -29,7 +29,8 @@ This will be the output required from PV installation.
 
 ## Planned PV System
 
-
+![Alt text](https://raw.github.com/potherca-blog/StackOverflow/master/question.13808020.include-an-svg-hosted-on-github-in-markdown/controllers_brief.svg?sanitize=true)
+<img src="https://raw.github.com/potherca-blog/StackOverflow/master/question.13808020.include-an-svg-hosted-on-github-in-markdown/controllers_brief.svg?sanitize=true">
 
 | Solar Panel Array  	|    ->    	|                                                          Solar Pump Inverter                                                         	| ->    	| AC Pump 	|-> 	| Storage Tank 	|-> 	| Irrigation 	|
 |:------------------:	|:--------:	|:------------------------------------------------------------------------------------------------------------------------------------:	|:--------:	|:-------:	|:--:	|:------------:	|:--:	|:----------:	|
