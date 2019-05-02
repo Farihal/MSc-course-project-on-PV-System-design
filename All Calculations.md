@@ -29,7 +29,7 @@ This will be the output required from PV installation.
 
 ## Planned PV System
 
-
+![](https://photos.app.goo.gl/5Lrjt8LdhEc1vuJMA)
 
 | Solar Panel Array  	|    ->    	|                                                          Solar Pump Inverter                                                         	| ->    	| AC Pump 	|-> 	| Storage Tank 	|-> 	| Irrigation 	|
 |:------------------:	|:--------:	|:------------------------------------------------------------------------------------------------------------------------------------:	|:--------:	|:-------:	|:--:	|:------------:	|:--:	|:----------:	|
