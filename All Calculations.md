@@ -29,8 +29,7 @@ This will be the output required from PV installation.
 
 ## Planned PV System
 
-![Alt text](Drawing1.svg?sanitize=true)
-<img src="Drawing1.svg?sanitize=true">
+![PV Irrigation Scheme](Drawing1.svg?sanitize=true "PV Irrigation Scheme")
  
 
 ## PV System Sizing
