@@ -39,7 +39,7 @@ This will be the output power required from PV installation.
 ## PV Installation Sizing
 
 To find the peak PV power; we have to consider all the losses related to this PV system-
-- PV module conversion efficiency= 0.85
+- PV panel conversion efficiency= 0.85
 - Cable efficiency= 0.98
 - Inverter efficiency = 0.90
 - Panel soiling factor= 0.90
