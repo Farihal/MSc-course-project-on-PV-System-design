@@ -31,8 +31,7 @@ This will be the output required from PV installation.
 
 ![PV Irrigation Scheme](Drawing1.svg?sanitize=true "PV Irrigation Scheme")
  
-
-## PV System Sizing
+## PV Installation Sizing
 
 To find the peak PV power; we have to consider all the losses related to this PV system-
 - PV efficiency= 0.85
@@ -41,5 +40,9 @@ To find the peak PV power; we have to consider all the losses related to this PV
 - Panel soiling factor= 0.90
 
 So, required power of PV installation= 11190/(0.98 x 0.85 x 0.90 x 0.90)=16.5 KWp
+
+## Inverter Sizing
+Inverter Rating = Total AC Load + 25%= 11190/0.8=13987.5 W
+We choose 14 KW
 
 
