@@ -23,7 +23,7 @@ So, per day water requirement= 20000/95 =210.5  m<sup>3</sup>=55608.217 gallons 
 ## Pump Sizing
 1. Water requirement=55608.217 gallons/day
 2. Solar insolation for December=4.21 KWh/m<sup>2</sup>/day or a solar insolation level of 4.21 hr/day
-3. We have, flow rate = 55608.217/4.21=13208.6 gallons(ga)/hr or 220.14 ga/min (gpm)
+3. Since, "Peak Sun Hour" in consideration is 4.21, we need to calculate the water flow requirement within this time frame.We have, flow rate = 55608.217/4.21=13208.6 gallons(ga)/hr or 220.14 ga/min (gpm)
 
 ![Pump Performance Curve](holland.png "Pump Performance Curve")
 
@@ -52,6 +52,9 @@ Inverter Rating = Total AC Load + 25%= 11190/0.8=13987.5 W
 We choose 3 phase 380 V 15 KW solar pump inverterters which are readily available. To derive 380 V <sub>rms</sub> output from inverter, we require at least 380/0.78 = 487 V dc (Considering pulse width modulation scheme for inverter). We choose a 500 V dc PV array installation.
 
 ## PV array Sizing
+![Panel Sizing](panel.png "Panel Sizing")
+
+We select some arbitrary values to complete the following calculations. The optimum tilt angle for the panels is found to be 23.5 degrees.
 
 - P<sub>c</sub> = Solar Panel Capacity (320 Wp) 
 - D = Panel to Panel Clearance Distance (m)
