@@ -24,6 +24,9 @@ So, per day water requirement= 20000/95 =210.5  m<sup>3</sup>=55608.217 gallons 
 1. Water requirement=55608.217 gallons/day
 2. Solar insolation for December=4.21 KWh/m<sup>2</sup>/day or a solar insolation level of 4.21 hr/day
 3. We have, flow rate = 55608.217/4.21=13208.6 gallons(ga)/hr or 220.14 ga/min (gpm)
+
+![Pump Performance Curve](holland.png "Pump Performance Curve")
+
 4. Surface pumps used in solar irrigation are of centrifugal type. We now consult performance curve of surface pump from a manufacturer- Holland Applied Technologies. For the model **Waukesha C216-3500**, we get peak pump input power of 15 HP = 11190 W for a pump head (TDH) of 140 feet and water requirement of 220.14 gpm.
 This will be the output required from PV installation.
 
@@ -43,6 +46,7 @@ So, required power of PV installation= 11190/(0.98 x 0.85 x 0.90 x 0.90)=16.5 KW
 
 ## Inverter Sizing
 Inverter Rating = Total AC Load + 25%= 11190/0.8=13987.5 W
+
 We choose 14 KW
 
 
