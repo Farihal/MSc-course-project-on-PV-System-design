@@ -65,18 +65,13 @@ V<sub>max</sub> = Voltage at Maximum Power Point (38 V)
 
 V<sub>DC</sub> = System DC Voltage (500 V)
 
-Total No. of Panel Required 
-= 7.81 ≈ 8 pcs
-Total Area for Panel Installation, ATPI = Total No. of Panel Required * Ap= 8 * 2.62 = 20.96 m2
-No. of Panel in Series = ୚ୈେ
-୚୫ୟ୶
-=
-଺଴ ୚
-ଷ଼ ୚
-= 1.57 ≈ 2 pcs (Nearest highest whole number)
-No. of Panel String in Parallel = ୘୭୲ୟ୪ ୒୭.୭୤ ୔ୟ୬ୣ୪
-୒୭.୭୤ ୔ୟ୬ୣ୪ ୧୬ ୗୣ୰୧ୣୱ =
-଼ ଶ
-= 4 pcs
+Total No. of Panel Required = Required PV Capacity / P<sub>c</sub> = 16.5 KWp / 320 WP = 51.5 ≈ 52 pcs
+
+Total Area for Panel Installation, A<sub>TPI</sub> = Total No. of Panel Required * Ap= 52 * 2.62 = 136.24 m<sup>2</sup>
+
+No. of Panels in Series = V<sub>DC</sub> / V<sub>max</sub>  = 500/38 = 13.16 ≈ 14 pcs ( Nearest highest whole number )
+
+No. of Panel String in Parallel = Total No. of Panels / No. of Panels in series = 52/14 ≈ 4 pcs
+
 
 
