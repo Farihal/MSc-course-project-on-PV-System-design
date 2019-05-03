@@ -49,6 +49,20 @@ So, required power of PV installation= 11190/(0.98 x 0.85 x 0.90 x 0.90)=16.5 KW
 ## Inverter Sizing
 Inverter Rating = Total AC Load + 25%= 11190/0.8=13987.5 W
 
-We choose 3 phase 380 V 15 KW solar pump inverterters which are readily available. To derive 380 V <sub>rms</sub> output from inverter, we require at least 380/0.78 = 487 V dc. We choose a 500 V dc PV array installation.
+We choose 3 phase 380 V 15 KW solar pump inverterters which are readily available. To derive 380 V <sub>rms</sub> output from inverter, we require at least 380/0.78 = 487 V dc (Considering pulse width modulation scheme for inverter). We choose a 500 V dc PV array installation.
+
+## PV array Sizing
+
+- P<sub>c</sub> = Solar Panel Capacity (320 Wp) 
+- D = Panel to Panel Clearance Distance (m)
+- L = Panel Length (1.96 m) 
+- A<sub>p</sub> = Area Occupied by a Single Panel (m<sup>2</sup>)
+- W = Panel Width (0.99 m)
+- Panel to Panel Clearance Distance, D = W * 1.35
+- Area Occupied by a Single Panel, A<sub>p</sub> = L * D = L * W * 1.35 = 1.96 * 0.99 * 1.35 = 2.62 m<sup>2</sup>
+
+V<sub>max</sub> = Voltage at Maximum Power Point (38 V)
+
+V<sub>DC</sub> = System DC Voltage (500 V)
 
 
