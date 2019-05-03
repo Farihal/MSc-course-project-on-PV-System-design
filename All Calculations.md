@@ -47,6 +47,6 @@ So, required power of PV installation= 11190/(0.98 x 0.85 x 0.90 x 0.90)=16.5 KW
 ## Inverter Sizing
 Inverter Rating = Total AC Load + 25%= 11190/0.8=13987.5 W
 
-We choose 14 KW
+We choose 3 phase 380 V 14 KW solar pump inverters. This 380 V output has to be derived from PV array installation.
 
 
