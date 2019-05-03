@@ -11,7 +11,7 @@ So, per day water requirement= 20000/95 =210.5  m<sup>3</sup>=55608.217 gallons 
 
 ## Pump Requirements
 - We select  surface pump and AC coupling for the system.
-- We choose a reference total dynamic head ( TDH) of 140 feet = 42.672 meters ( generally in Bangladesh we have systems with dynamic head between 20 and 80 meters) 
+- We choose a reference total dynamic head ( TDH) of `140 feet = 42.672 meters` ( generally in Bangladesh we have systems with dynamic head between 20 and 80 meters) 
 - Potato is generally cultivated in winter seasons. We will consider the daily solar radiation values or peak sun hour values for months of Nov-Jan. For PV sizing- we take data of December when the peak sun hour is the lowest.The Data are derived from online solar radiation databases based on the site coordinates.
 
 | Month 	| Daily Solar Radiation-horizontal KWh/m<sup>2</sup>/d  	|
@@ -22,14 +22,14 @@ So, per day water requirement= 20000/95 =210.5  m<sup>3</sup>=55608.217 gallons 
 
 ## Pump Sizing
 1. Water requirement=55608.217 gallons/day
-2. Solar insolation for December=4.21 KWh/m<sup>2</sup>/day or a solar insolation level of 4.21 hr/day
+2. Solar insolation for December=4.21 KWh/m<sup>2</sup>/day or a solar insolation level of `4.21 hr/day`
 3. Since, "Peak Sun Hour" in consideration is 4.21, we need to calculate the water flow requirement within this time frame.We have, flow rate = 55608.217/4.21=13208.6 gallons(ga)/hr or 220.14 ga/min (gpm)
 
 ![Pump Performance Curve](holland.png "Pump Performance Curve")
 
 
-4. Surface pumps used in solar irrigation are of centrifugal type. We now consult performance curve of surface pump from a manufacturer- Holland Applied Technologies. For the model **Waukesha C216-3500**, we get peak pump input power of 15 HP = 11190 W for a pump head (TDH) of 140 feet and water requirement of 220.14 gpm.
-This will be the output required from PV installation.
+4. Surface pumps used in solar irrigation are of centrifugal type. We now consult performance curve of surface pump from a manufacturer- Holland Applied Technologies. For the model **Waukesha C216-3500**, we get peak pump input power of `15 HP = 11190 W` for a pump head (TDH) of `140 feet` and water requirement of `220.14 gpm `at `6 inches diameter impeller`.
+This will be the output power required from PV installation.
 
 
 ## Planned PV System
@@ -54,7 +54,7 @@ We choose 3 phase 380 V 15 KW solar pump inverterters which are readily availabl
 ## PV array Sizing
 ![Panel Sizing](panel.PNG "Panel Sizing")
 
-Since the lattitude is below 25 degrees , for fixed tilt angle solar panels, the tilt angle= lattitude of the location times 0.87 =  23.2866 * 0.87 = 20.25 degrees. More information about tilt angles can be found [here](https://www.solarpaneltilt.com/)
+Since the lattitude is below 25 degrees , for fixed tilt angle solar panels, the tilt angle= lattitude of the location times 0.87 =  23.2866 * 0.87 = `20.25 degrees`. More information about tilt angles can be found [here](https://www.solarpaneltilt.com/)
 
 We select some arbitrary values to complete the following calculations-
 
@@ -79,7 +79,8 @@ No. of Panels in Series = V<sub>DC</sub> / V<sub>max</sub>  = 500/38 = 13.16 ≈
 No. of Panel String in Parallel = Total No. of Panels / No. of Panels in series = 52/14 ≈ 4 pcs
 
 ## Final Design Outputs
-1. 4 nos PV Panel string in Parallel with 14 Panels in series in each String
-2. PV Installation Rating : 17.92 KWp at 532 V
-3. Solar Pump Inverter Rating : 3 phase 380 V 15 KW
+1. `4` nos PV Panel string in Parallel with `14` Panels in series in each String
+2. PV Installation Rating : `17.92 KWp` at `532 V dc`
+3. Solar Pump Inverter Rating : `3 phase 380 V 15 KW`
+
 
