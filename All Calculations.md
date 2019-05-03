@@ -1,5 +1,5 @@
 ## Site Survey
-Site is Shariatpur- latitude :23.2866, longitude:90.3748 Co-ordinates- N 23 17’12’’ , E 90 22’ 29’’
+Site is Shariatpur- latitude : 23.2866, longitude: 90.3748 Co-ordinates- N 23 17’12’’ , E 90 22’ 29’’
 Crop in focus- potato
 Tentative land size – 50000 square meters
 The species chosen is  a 90-95 days crop
@@ -54,7 +54,9 @@ We choose 3 phase 380 V 15 KW solar pump inverterters which are readily availabl
 ## PV array Sizing
 ![Panel Sizing](panel.PNG "Panel Sizing")
 
-We select some arbitrary values to complete the following calculations. The optimum tilt angle for the panels is found to be 23.5 degrees.
+Since the lattitude is below 25 degrees , for fixed tilt angle solar panels, the tilt angle= lattitude of the location times 0.87 =  23.2866 * 0.87 = 20.25 degrees.
+
+We select some arbitrary values to complete the following calculations-
 
 - P<sub>c</sub> = Solar Panel Capacity (320 Wp) 
 - D = Panel to Panel Clearance Distance (m)
