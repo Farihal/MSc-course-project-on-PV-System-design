@@ -54,7 +54,7 @@ We choose 3 phase 380 V 15 KW solar pump inverterters which are readily availabl
 ## PV array Sizing
 ![Panel Sizing](panel.PNG "Panel Sizing")
 
-Since the lattitude is below 25 degrees , for fixed tilt angle solar panels, the tilt angle= lattitude of the location times 0.87 =  23.2866 * 0.87 = 20.25 degrees.
+Since the lattitude is below 25 degrees , for fixed tilt angle solar panels, the tilt angle= lattitude of the location times 0.87 =  23.2866 * 0.87 = 20.25 degrees. More information about tilt angles can be found [here](https://www.solarpaneltilt.com/)
 
 We select some arbitrary values to complete the following calculations-
 
