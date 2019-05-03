@@ -78,5 +78,8 @@ No. of Panels in Series = V<sub>DC</sub> / V<sub>max</sub>  = 500/38 = 13.16 ≈
 
 No. of Panel String in Parallel = Total No. of Panels / No. of Panels in series = 52/14 ≈ 4 pcs
 
-
+## Final Design Outputs
+1. 4 nos PV Panel string in Parallel with 14 Panels in series in each String
+2. PV Installation Rating : 17.92 KWp at 532 V
+3. Solar Pump Inverter Rating : 3 phase 380 V 15 KW
 
