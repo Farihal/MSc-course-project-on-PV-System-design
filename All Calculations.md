@@ -65,4 +65,18 @@ V<sub>max</sub> = Voltage at Maximum Power Point (38 V)
 
 V<sub>DC</sub> = System DC Voltage (500 V)
 
+Total No. of Panel Required 
+= 7.81 ≈ 8 pcs
+Total Area for Panel Installation, ATPI = Total No. of Panel Required * Ap= 8 * 2.62 = 20.96 m2
+No. of Panel in Series = ୚ୈେ
+୚୫ୟ୶
+=
+଺଴ ୚
+ଷ଼ ୚
+= 1.57 ≈ 2 pcs (Nearest highest whole number)
+No. of Panel String in Parallel = ୘୭୲ୟ୪ ୒୭.୭୤ ୔ୟ୬ୣ୪
+୒୭.୭୤ ୔ୟ୬ୣ୪ ୧୬ ୗୣ୰୧ୣୱ =
+଼ ଶ
+= 4 pcs
+
 
