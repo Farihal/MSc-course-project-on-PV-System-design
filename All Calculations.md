@@ -27,8 +27,10 @@ So, per day water requirement= 20000/95 =210.5  m<sup>3</sup>=55608.217 gallons 
 
 ![Pump Performance Curve](holland.png "Pump Performance Curve")
 
+
 4. Surface pumps used in solar irrigation are of centrifugal type. We now consult performance curve of surface pump from a manufacturer- Holland Applied Technologies. For the model **Waukesha C216-3500**, we get peak pump input power of 15 HP = 11190 W for a pump head (TDH) of 140 feet and water requirement of 220.14 gpm.
 This will be the output required from PV installation.
+
 
 ## Planned PV System
 
@@ -47,6 +49,6 @@ So, required power of PV installation= 11190/(0.98 x 0.85 x 0.90 x 0.90)=16.5 KW
 ## Inverter Sizing
 Inverter Rating = Total AC Load + 25%= 11190/0.8=13987.5 W
 
-We choose 3 phase 380 V 14 KW solar pump inverters. This 380 V output has to be derived from PV array installation.
+We choose 3 phase 380 V 15 KW solar pump inverterters which are readily available. To derive 380 V <sub>rms</sub> output from inverter, we require at least 380/0.78 = 487 V dc. We choose a 500 V dc PV array installation.
 
 
