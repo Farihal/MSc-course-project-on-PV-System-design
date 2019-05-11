@@ -28,7 +28,7 @@ So, per day water requirement= 20000/95 =210.5  m<sup>3</sup>=55608.217 gallons 
 ![Pump Performance Curve](holland.png "Pump Performance Curve")
 
 
-4. Surface pumps used in solar irrigation are of centrifugal type. We now consult performance curve of surface pump from a manufacturer- Holland Applied Technologies. For the model **Waukesha C216-3500**, we get peak pump input power of `10 HP = 7457 W` for a pump head (TDH) of `140 feet` and water requirement of `220.14 gpm `at `6 inches diameter impeller`.
+4. Surface pumps used in solar irrigation are of centrifugal type. We now consult performance curve of surface pump(*used for pumping water*) from a manufacturer- Holland Applied Technologies. For the model **Waukesha C216-3500**, we get peak pump input power of `10 HP = 7457 W` for a pump head (TDH) of `140 feet` and water requirement of `220.14 gpm `at `6 inches diameter impeller`.
 This will be the output power required from PV installation.
 
 
