@@ -49,7 +49,7 @@ So, required power of PV installation= 7457/(0.98 x 0.85 x 0.96 x 0.90)=10.4 KWp
 ## Inverter Sizing
 Inverter Rating = Total AC Load + 25%= 7457/0.8=9321.25 W
 
-We choose 3 phase 380 V 10 KW solar pump inverterters which are readily available. To derive 380 V <sub>rms</sub> (line-to-line) output from inverter, we require at least 380/0.8165 = 465.4 V dc (Considering pulse width modulation scheme for inverter where 180 degree conduction is the preferred method of control). We choose a 500 V dc PV array installation.
+We choose 3 phase 380 V 10 KW solar pump inverterters which are readily available. To derive 380 V <sub>rms</sub> (line-to-line) output from inverter, we require at least 380/0.8165 = 465.4 V dc (Considering pulse width modulation scheme for inverter where 180 degree conduction is the preferred method of control) as input. We choose a 500 V dc PV array installation.
 
 ## PV array Sizing
 ![Panel Sizing](panel.PNG "Panel Sizing")
