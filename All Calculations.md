@@ -86,5 +86,6 @@ Total Area for Panel Installation, A<sub>TPI</sub> = Total No. of Panel Required
 1. `3` nos PV Panel string in Parallel with `15`nos `250 Wp` Panels in series in each String
 2. PV Installation Rating : `10.4 KWp` at `510 V dc`
 3. Solar Pump Inverter Rating : `3 phase 380 V 10 KW`
+4. Surface Pump Rating : `10 HP`
 
 
