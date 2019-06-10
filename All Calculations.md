@@ -78,12 +78,13 @@ No. of Panel String in Parallel = Total No. of Panels / No. of Panels in series 
 
 Total Area for Panel Installation, A<sub>TPI</sub> = Total No. of Panel Required * Ap= (3 x 15= 45) * 2.62 = 117.9 m<sup>2</sup>
 
-## Cable and Breaker Sizing
+## Cable Sizing
+## Circuit Breaker Sizing
 
 
 ## Final Design Outputs
 1. `3` nos PV Panel string in Parallel with `15`nos `250 Wp` Panels in series in each String
-2. PV Installation Rating : `11.25 KWp` at `510 V dc`
+2. PV Installation Rating : `10.4 KWp` at `510 V dc`
 3. Solar Pump Inverter Rating : `3 phase 380 V 10 KW`
 
 
