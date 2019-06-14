@@ -85,8 +85,6 @@ No. of Panel String in Parallel = Total No. of Panels / No. of Panels in series 
 
 Total Area for Panel Installation, A<sub>TPI</sub> = Total No. of Panel Required * Ap= (3 x 14= 42) * 2.62 = 110.04 m<sup>2</sup>
 
-## Cable Sizing
-## Circuit Breaker Sizing
 
 
 ## Final Design Outputs
