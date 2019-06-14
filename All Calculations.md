@@ -28,7 +28,7 @@ So, per day water requirement= 20000/95 =210.5  m<sup>3</sup>=55608.217 gallons 
 ![Pump Performance Curve](holland.png "Pump Performance Curve")
 
 
-4. Surface pumps used in solar irrigation are of centrifugal type. We now consult performance curve of surface pump(*used for pumping water*) from a manufacturer- Holland Applied Technologies. For the model **Waukesha C216-3500**, we get peak pump input power of `10 HP = 7457 W` for a pump head (TDH) of `140 feet` and water requirement of `220.14 gpm `at `6 inches diameter impeller`.
+4. Surface pumps used in solar irrigation are of centrifugal type. We now consult performance curve of surface pump(*used for pumping water*) from a manufacturer- Holland Applied Technologies. For the model **Waukesha C216-3500**, we get that a `10 HP = 7457 W` motor is required by the pump for a pump head (TDH) of `140 feet` and water requirement of `220.14 gpm `at `6 inches diameter impeller`.
 This will be the output power required from PV installation.
 
 
@@ -50,6 +50,9 @@ So, required power of PV installation= 7457/(0.98 x 0.85 x 0.96 x 0.90)=10.4 KWp
 Inverter Rating = Total AC Load + 25%= 7457/0.8=9321.25 W
 
 We choose 3 phase 380 V 10 KW solar pump inverterters which are readily available. To derive 380 V <sub>rms</sub> (line-to-line) output from inverter, we require at least 380/0.8165 = 465.4 V dc (Considering pulse width modulation scheme for inverter where 180 degree conduction is the preferred method of control) as input. We choose a 500 V dc PV array installation.
+
+## Justifying the Inverter Sizing
+
 
 ## PV array Sizing
 ![Panel Sizing](panel.PNG "Panel Sizing")
@@ -86,6 +89,6 @@ Total Area for Panel Installation, A<sub>TPI</sub> = Total No. of Panel Required
 1. `3` nos PV Panel string in Parallel with `15`nos `250 Wp` Panels in series in each String
 2. PV Installation Rating : `10.4 KWp` at `510 V dc`
 3. Solar Pump Inverter Rating : `3 phase 380 V 10 KW`
-4. Surface Pump Rating : `10 HP`
+4. Surface Pump Motor Rating : `10 HP`
 
 
