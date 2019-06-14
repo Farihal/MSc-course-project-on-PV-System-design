@@ -9,6 +9,10 @@ So,50000 square meters= 5 ha
 2. So, water requirement for the crop = 20000  m<sup>3</sup>
 So, per day water requirement= 20000/95 =210.5  m<sup>3</sup>=55608.217 gallons =210500 liter
 
+## Planned PV System
+
+![PV Irrigation Scheme](Drawing1.svg?sanitize=true "PV Irrigation Scheme")
+
 ## Pump Requirements
 - We select  surface pump and AC coupling for the system.
 - We choose a reference total dynamic head ( TDH) of `140 feet = 42.672 meters` ( generally in Bangladesh we have systems with dynamic head between 20 and 80 meters) 
@@ -29,12 +33,14 @@ So, per day water requirement= 20000/95 =210.5  m<sup>3</sup>=55608.217 gallons 
 
 
 4. Surface pumps used in solar irrigation are of centrifugal type. We now consult performance curve of surface pump(*used for pumping water*) from a manufacturer- Holland Applied Technologies. For the model **Waukesha C216-3500**, we get that a `10 HP = 7457 W` motor is required by the pump for a pump head (TDH) of `140 feet` and water requirement of `220.14 gpm `at `6 inches diameter impeller`.
-This will be the output power required from PV installation.
+
+## Inverter Sizing
+Inverter Rating = Total AC Load + 25%= 7457/0.8=9321.25 W
+
+We choose 3 phase 380 V 10 KW solar pump inverterters which are readily available. To derive 380 V <sub>rms</sub> (line-to-line) output from inverter, we require at least 380/0.8165 = 465.4 V dc (Considering pulse width modulation scheme for inverter where 180 degree conduction is the preferred method of control) as input. We choose a 500 V dc PV array installation.
 
 
-## Planned PV System
 
-![PV Irrigation Scheme](Drawing1.svg?sanitize=true "PV Irrigation Scheme")
  
 ## PV Installation Sizing
 
@@ -46,10 +52,6 @@ To find the peak PV power; we have to consider all the losses related to this PV
 
 So, required power of PV installation= 7457/(0.98 x 0.85 x 0.96 x 0.90)=10.4 KWp
 
-## Inverter Sizing
-Inverter Rating = Total AC Load + 25%= 7457/0.8=9321.25 W
-
-We choose 3 phase 380 V 10 KW solar pump inverterters which are readily available. To derive 380 V <sub>rms</sub> (line-to-line) output from inverter, we require at least 380/0.8165 = 465.4 V dc (Considering pulse width modulation scheme for inverter where 180 degree conduction is the preferred method of control) as input. We choose a 500 V dc PV array installation.
 
 ## Justifying the Inverter Sizing
 
