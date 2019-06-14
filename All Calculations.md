@@ -32,16 +32,8 @@ So, per day water requirement= 20000/95 =210.5  m<sup>3</sup>=55608.217 gallons 
 ![Pump Performance Curve](holland.png "Pump Performance Curve")
 
 
-4. Surface pumps used in solar irrigation are of centrifugal type. We now consult performance curve of surface pump(*used for pumping water*) from a manufacturer- Holland Applied Technologies. For the model **Waukesha C216-3500**, we get that a `10 HP = 7457 W` motor is required by the pump for a pump head (TDH) of `140 feet` and water requirement of `220.14 gpm `at `6 inches diameter impeller`.
+4. Pumps used in solar irrigation are of centrifugal type. We now consult performance curve of cenrifugal pumps (where the motor is built with the pump) from a manufacturer- Holland Applied Technologies. For the model **Waukesha C216-3500**, we get that a `10 HP = 7457 W` pump is required for a pump head (TDH) of `140 feet` and water requirement of `220.14 gpm `at `6 inches diameter impeller`.
 
-## Inverter Sizing
-Inverter Rating = Total AC Load + 25%= 7457/0.8=9321.25 W
-
-We choose 3 phase 380 V 10 KW solar pump inverterters which are readily available. To derive 380 V <sub>rms</sub> (line-to-line) output from inverter, we require at least 380/0.8165 = 465.4 V dc (Considering pulse width modulation scheme for inverter where 180 degree conduction is the preferred method of control) as input. We choose a 500 V dc PV array installation.
-
-
-
- 
 ## PV Installation Sizing
 
 To find the peak PV power; we have to consider all the losses related to this PV system-
@@ -52,8 +44,18 @@ To find the peak PV power; we have to consider all the losses related to this PV
 
 So, required power of PV installation= 7457/(0.98 x 0.85 x 0.96 x 0.90)=10.4 KWp
 
+## Inverter Selection 
 
-## Justifying the Inverter Sizing
+We choose 3 phase 380 V `11 KW` 50 Hz solar pump inverterters readily available from Alibaba. The ratings in the catalogue are-
+- Pump Rated Power(HP):10
+- Rated Input Current:32A
+- Inverter Output Current:25A
+- Input Voltage:450-750 VDC
+- MPPT voltage:480-600V
+- PV Power:12.75KW
+
+To derive 380 V <sub>rms</sub> (line-to-line) output from inverter, we require at least 380/0.8165 = 465.4 V dc (Considering pulse width modulation scheme for inverter where 180 degree conduction is the preferred method of control) as input. We choose a 500 V dc PV array installation. Hence for the inverter, we will size a `500 VDC 12.75 KW `PV System.
+
 
 
 ## PV array Sizing
@@ -63,7 +65,7 @@ Since the lattitude is below 25 degrees , for fixed tilt angle solar panels, the
 
 We select some arbitrary values to complete the following calculations-
 
-- P<sub>c</sub> = Solar Panel Capacity (250 Wp) 
+- P<sub>c</sub> = Solar Panel Capacity (320 Wp) 
 - D = Panel to Panel Clearance Distance (m)
 - L = Panel Length (1.96 m) 
 - A<sub>p</sub> = Area Occupied by a Single Panel (m<sup>2</sup>)
@@ -71,26 +73,26 @@ We select some arbitrary values to complete the following calculations-
 - Panel to Panel Clearance Distance, D = W * 1.35
 - Area Occupied by a Single Panel, A<sub>p</sub> = L * D = L * W * 1.35 = 1.96 * 0.99 * 1.35 = 2.62 m<sup>2</sup>
 
-V<sub>max</sub> = Voltage at Maximum Power Point (34 V)
+V<sub>max</sub> = Voltage at Maximum Power Point (38 V)
 
 V<sub>DC</sub> = System DC Voltage (500 V)
 
-Total No. of Panel Required = Required PV Capacity / P<sub>c</sub> = 10.4 KWp / 250 WP = 41.6 ≈ 42 pcs
+Total No. of Panel Required = Required PV Capacity / P<sub>c</sub> = 12.75 KWp / 320 WP ≈ 40 pcs
 
-No. of Panels in Series = V<sub>DC</sub> / V<sub>max</sub>  = 500/34 ≈ 15 pcs ( Nearest highest whole number )
+No. of Panels in Series = V<sub>DC</sub> / V<sub>max</sub>  = 500/38 ≈ 14 pcs ( Nearest highest whole number )
 
-No. of Panel String in Parallel = Total No. of Panels / No. of Panels in series = 42/15 ≈ 3 pcs
+No. of Panel String in Parallel = Total No. of Panels / No. of Panels in series = 40/14 ≈ 3 pcs
 
-Total Area for Panel Installation, A<sub>TPI</sub> = Total No. of Panel Required * Ap= (3 x 15= 45) * 2.62 = 117.9 m<sup>2</sup>
+Total Area for Panel Installation, A<sub>TPI</sub> = Total No. of Panel Required * Ap= (3 x 14= 42) * 2.62 = 110.04 m<sup>2</sup>
 
 ## Cable Sizing
 ## Circuit Breaker Sizing
 
 
 ## Final Design Outputs
-1. `3` nos PV Panel string in Parallel with `15`nos `250 Wp` Panels in series in each String
-2. PV Installation Rating : `10.4 KWp` at `510 V dc`
-3. Solar Pump Inverter Rating : `3 phase 380 V 10 KW`
-4. Surface Pump Motor Rating : `10 HP`
+1. `3` nos PV Panel string in Parallel with `14`nos `320 Wp` Panels in series in each String
+2. PV Installation Rating : `13.44 KWp` at `532 Vp (DC)`
+3. Solar Pump Inverter Rating : `3 phase 380 V 11 KW`
+4. Centrifugal Pump Rating : `10 HP`
 
 
