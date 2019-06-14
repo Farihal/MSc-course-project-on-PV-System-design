@@ -14,7 +14,7 @@ So, per day water requirement= 20000/95 =210.5  m<sup>3</sup>=55608.217 gallons 
 ![PV Irrigation Scheme](Drawing1.svg?sanitize=true "PV Irrigation Scheme")
 
 ## Pump Requirements
-- We select  surface pump and AC coupling for the system.
+- We select  centrifugal pump and AC coupling for the system.
 - We choose a reference total dynamic head ( TDH) of `140 feet = 42.672 meters` ( generally in Bangladesh we have systems with dynamic head between 20 and 80 meters) 
 - Potato is generally cultivated in winter seasons. We will consider the daily solar radiation values or peak sun hour values for months of Nov-Jan. For PV sizing- we take data of December when the peak sun hour is the lowest.The Data are derived from online solar radiation databases based on the site coordinates.
 
