@@ -32,7 +32,7 @@ So, per day water requirement= 20000/95 =210.5  m<sup>3</sup>=55608.217 gallons 
 ![Pump Performance Curve](holland.png "Pump Performance Curve")
 
 
-4. Pumps used in solar irrigation are of centrifugal type. We now consult performance curve of cenrifugal pumps (where the motor is built with the pump) from a manufacturer- Holland Applied Technologies. For the model **Waukesha C216-3500**, we get that a our pump requires `10 HP = 7457 W`  for a pump head (TDH) of `140 feet` and water requirement of `220.14 gpm `at `6 inches diameter impeller`.
+4. Pumps used in solar irrigation are of centrifugal type. We now consult performance curve of cenrifugal pumps (where the motor is built with the pump) from a manufacturer- Holland Applied Technologies. For the model **Waukesha C216-3500**, we get that our pump requires `10 HP = 7457 W`  for a pump head (TDH) of `140 feet` and water requirement of `220.14 gpm `at `6 inches diameter impeller`.
 
 ## PV Installation Sizing
 
