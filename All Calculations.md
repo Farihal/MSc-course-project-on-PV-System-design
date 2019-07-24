@@ -41,8 +41,9 @@ To find the peak PV power; we have to consider all the losses related to this PV
 - Cable efficiency= 0.98
 - Inverter efficiency = 0.96
 - Panel soiling factor= 0.90
+- Pump-Motor combined efficiency=0.83
 
-So, required power of PV installation= 7457/(0.98 x 0.85 x 0.96 x 0.90)=10.4 KWp
+So, required power of PV installation= 7457/(0.98 x 0.85 x 0.96 x 0.90x 0.83)=12.64 KWp
 
 ## Inverter Selection 
 
