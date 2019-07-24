@@ -32,7 +32,7 @@ So, per day water requirement= 20000/95 =210.5  m<sup>3</sup>=55608.217 gallons 
 ![Pump Performance Curve](holland.png "Pump Performance Curve")
 
 
-4. Pumps used in solar irrigation are of centrifugal type. We now consult performance curve of cenrifugal pumps (where the motor is built with the pump) from a manufacturer- Holland Applied Technologies. For the model **Waukesha C216-3500**, we get that a `10 HP = 7457 W` pump is required for a pump head (TDH) of `140 feet` and water requirement of `220.14 gpm `at `6 inches diameter impeller`.
+4. Pumps used in solar irrigation are of centrifugal type. We now consult performance curve of cenrifugal pumps (where the motor is built with the pump) from a manufacturer- Holland Applied Technologies. For the model **Waukesha C216-3500**, we get that a our pump requires `10 HP = 7457 W`  for a pump head (TDH) of `140 feet` and water requirement of `220.14 gpm `at `6 inches diameter impeller`.
 
 ## PV Installation Sizing
 
@@ -41,9 +41,9 @@ To find the peak PV power; we have to consider all the losses related to this PV
 - Cable efficiency= 0.98
 - Inverter efficiency = 0.96
 - Panel soiling factor= 0.90
-- Pump-Motor combined efficiency=0.83
+- Pump Motor efficiency=0.92
 
-So, required power of PV installation= 7457/(0.98 x 0.85 x 0.96 x 0.90x 0.83)=12.64 KWp
+So, required power of PV installation= 7457/(0.98 x 0.85 x 0.96 x 0.90x 0.92)=11.264 KWp
 
 ## Inverter Selection 
 
@@ -92,6 +92,6 @@ Total Area for Panel Installation, A<sub>TPI</sub> = Total No. of Panel Required
 1. `3` nos PV Panel string in Parallel with `14`nos `320 Wp` Panels in series in each String
 2. PV Installation Rating : `13.44 KWp` at `532 Vp (DC)`
 3. Solar Pump Inverter Rating : `3 phase 380 V 11 KW`
-4. Centrifugal Pump Rating : `10 HP`
+
 
 
